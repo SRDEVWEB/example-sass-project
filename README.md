@@ -1,4 +1,4 @@
-Ceci est un squelette de projet pour s'entrainer au SASS, ou pour créer des projets HTML. 
+Ceci est un squelette de projet pour s'entrainer au SASS avec Bootstrap@5.X, ou pour créer des projets HTML. 
 Pour une utilisation avec un framework javascript preférer une installation via webpack par exemple.
 
 
