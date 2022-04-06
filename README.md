@@ -26,11 +26,8 @@ npm i
 # Usage
 ```bash
 # pour compiler+prefixer+minifier une seule fois
-npm run sass-once
+npm run sass-prod
 
-# pour compiler à chaque changement de fichier
-npm run sass-watch
-
-# pour compiler+prefixer+minifier à chaque changement de fichier
-npm run sass-prod-watch
+# pour compiler en mode dev à chaque changement de fichier
+npm run sass-watch-dev
 ```
