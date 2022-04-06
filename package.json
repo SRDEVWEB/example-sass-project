@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "sass-once": "npm run sass-compile && npm run prefixer",
-    "sass-watch": "nodemon --watch src/** -e scss -x \"npm run sass-compile && npm run prefixer\"",
+    "sass-watch": "nodemon --watch src/** -e scss -x \"npm run sass-compile\"",
+    "sass-prod-watch": "nodemon --watch src/** -e scss -x \"npm run sass-compile && npm run prefixer\"",
     "sass-compile": "sass ./src/main.scss:./public/assets/build/main.pre.css -q --color --no-source-map --style compressed",
     "prefixer": "postcss ./public/assets/build/main.pre.css --use autoprefixer postcss-csso -o ./public/assets/build/main.css --no-map"
   },
