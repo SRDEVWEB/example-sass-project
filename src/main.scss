@@ -58,11 +58,13 @@ position: relative;
  .titrecard{
    font-weight: bold;
    margin: 20px;
+
  }
 
  .cardtxt{
 margin: 20px;
-}
+
+ }
 
  .cardright{
    bottom: -100px;
@@ -78,4 +80,15 @@ margin: 20px;
 
  .txtencart{
    height: 150px;
+ }
+
+ .lapin{
+   position:relative;
+
+   &:after{
+     content:"";
+     width:100%;
+     position:absolute;
+     z-index:-1;
+   }
  }
