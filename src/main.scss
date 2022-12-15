@@ -2,9 +2,73 @@
 @import "./includes/styles";
 // Bootstrap and its default variables
 @import '../node_modules/bootstrap/scss/bootstrap';
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 //CUSTOM CSS
 
-li{
-;
+body{
+  font-family: 'Libre Baskerville', serif;
+  }
+  
+  .tel{
+    font-style: italic;
+    color: #353535;
+  }
+
+  .linkno{
+    margin: 35px;
+    font-size: larger;
+  }
+  .linkno:hover{
+    color:black;
+  }
+.ullia{
+text-align: center;
+  background: #0d6efd;
 }
+.topbottom{
+  height: 100px;
+}
+
+
+  .titre{
+    letter-spacing: 10px;
+    margin-bottom: 75px;
+  }
+
+  .imgbefo{
+    align-items: center;
+    margin: auto;
+    height: auto;
+    top:-100px;
+position: relative;
+
+  }
+
+ .butplus{
+   color: white;
+   padding: 5px 15px;
+ }
+
+ .plusright{
+   margin-left: auto;
+   padding-right: 0;
+   margin-right: 0px;
+ }
+
+ .titrecard{
+   font-weight: bold;
+   margin: 20px;
+ }
+
+ .cardtxt{
+margin: 20px;
+}
+
+ .cardright{
+   top:450px;
+   right: -250px
+ }
+
+ .encart{
+   background-image: url("https://assets.website-files.com/5e832e12eb7ca02ee9064d42/5f7db426b676b95755fb2844_Group%20805.jpg");
+ }
