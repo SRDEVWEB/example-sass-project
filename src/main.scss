@@ -66,11 +66,16 @@ margin: 20px;
 
  }
 
- .cardright{
-   bottom: -100px;
-   right: 100px;
-   margin-bottom: 50px;
+@media (max-width: 800px) {
+  .cardright{
+    margin-left: 200px;
+    margin-top: -200px;
 
+  }
+}
+ .cardright{
+  translate: -200px 150px;
+   margin-bottom: 150px;
  }
 
  .encart{
@@ -81,14 +86,15 @@ margin: 20px;
  .txtencart{
    height: 150px;
  }
+.lapin {
+  padding-top: 150px;
+  margin-top: 50px;
+}
 
- .lapin{
-   position:relative;
+.lapinou, .lapin{
+   max-width: content-box;
+ }
 
-   &:after{
-     content:"";
-     width:100%;
-     position:absolute;
-     z-index:-1;
-   }
+ .imglapinou{
+   translate: 50px -50px;
  }
